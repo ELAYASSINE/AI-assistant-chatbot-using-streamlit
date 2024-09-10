@@ -2,7 +2,7 @@ import streamlit as st
 import os 
 import google.generativeai as genai
 import google.generativeai as genai
-genai.configure(api_key='AIzaSyCs1tMPxILJffcuhSTJVJ0Wq_MSNpF6e6k')
+genai.configure(api_key='Try to use an api key from gemini')
 model=genai.GenerativeModel('gemini-pro')
 chat=model.start_chat(history=[])
 def get_gemini_answer(question):
